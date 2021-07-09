@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: inline-block;
+    vertical-align: super;
+    font-weight: 400;
+}
+
+.header-container{
+    padding-top: 25px;  
+}
