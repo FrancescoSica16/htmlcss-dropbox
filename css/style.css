@@ -17,3 +17,28 @@ nav{
 .header-container{
     padding-top: 25px;  
 }
+
+.nav-info{
+    padding-left: 30px;
+}
+
+.nav-extra{
+    padding-right: 30px;
+}
+
+.button{
+    border: 1px solid;
+}
+
+.button-header{
+    vertical-align: super;
+}
+
+.blue-button{
+    background-color: rgb(0, 126, 222);
+    color: white;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 12px 6px 12px ;
+    border-color: rgb(0, 126, 222) ;
+}
