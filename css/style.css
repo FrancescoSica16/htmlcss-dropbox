@@ -10,7 +10,7 @@ body{
 
 header{
     margin-top: 25px;
-    height: 60px;
+    height: 45px;
 }
 
 ul{
@@ -80,5 +80,27 @@ nav a{
 }
 
 
-#header button
+.jumbothron{
+    height: 700px;
+    background-color: rgb(180, 208, 231);
+}
 
+.jumbothron .wrapper{
+   padding: 80px 120px 0px 120px;
+}
+.jumbothron h1{
+    font-size: 80px;
+    text-align: left;
+
+}
+.jumbothron .text-box{
+    padding-top: 40px;
+    width: 30%;
+}
+
+.jumbothron .img-box{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    width: 60%;
+    height: 300px;
+}
