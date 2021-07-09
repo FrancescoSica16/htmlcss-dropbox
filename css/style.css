@@ -14,15 +14,33 @@ nav{
     font-weight: 400;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float: right;
+}
+
 .header-container{
     padding-top: 25px;  
 }
 
-.nav-info{
+.header-container-info, .header-container-extra{
+    width: max-content;
+}
+
+li.nav-info{
     padding-left: 30px;
 }
 
-.nav-extra{
+li.nav-extra{
     padding-right: 30px;
 }
 
