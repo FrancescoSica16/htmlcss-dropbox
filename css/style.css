@@ -13,6 +13,10 @@ header{
     height: 45px;
 }
 
+nav{
+    display: inline-block;
+}
+
 ul{
     list-style-type:none;
 }
@@ -75,7 +79,7 @@ nav a{
 
 .blue-button{
     background-color: rgb(0, 126, 222);
-    color: white; 
+    color: white;
     border-color: rgb(0, 126, 222) ;
 }
 
@@ -86,21 +90,30 @@ nav a{
 }
 
 .jumbothron .wrapper{
-   padding: 80px 120px 0px 120px;
+   padding: 70px 0px 0px 120px;
 }
+
 .jumbothron h1{
     font-size: 80px;
     text-align: left;
-
 }
+
+
+.jumbothron .wrapper-text-img{
+    padding: 40px 0px 0px 0px;
+ }
+
 .jumbothron .text-box{
-    padding-top: 40px;
     width: 30%;
+    padding: 0px 50px 0px 0px;
 }
 
-.jumbothron .img-box{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    width: 60%;
-    height: 300px;
+.jumbothron .img-box{   
+    width: 55%;
+    margin-left: 150px;
+
+}
+
+.jumbothron img{
+    width: 100%;
 }
