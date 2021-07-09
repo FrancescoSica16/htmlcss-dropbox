@@ -8,10 +8,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
-    display: inline-block;
-    vertical-align: super;
-    font-weight: 400;
+header{
+    margin-top: 25px;
+    height: 60px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
 }
 
 .clearfix::after{
@@ -29,34 +40,45 @@ nav{
 }
 
 .header-container{
-    padding-top: 25px;  
-}
-
-.header-container-info, .header-container-extra{
     width: max-content;
 }
 
+.header-container:first-child{
+    margin-left: 20px;
+}
+
+.header-container:last-child{
+    margin-right: 20px;
+}
+
 li.nav-info{
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
 li.nav-extra{
-    padding-right: 30px;
+    margin-right: 30px;
+}
+
+nav a{
+    color: black;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 10px 5px 10px;
 }
 
 .button{
     border: 1px solid;
-}
-
-.button-header{
-    vertical-align: super;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 12px 6px 12px ;
 }
 
 .blue-button{
     background-color: rgb(0, 126, 222);
-    color: white;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    padding: 6px 12px 6px 12px ;
+    color: white; 
     border-color: rgb(0, 126, 222) ;
 }
+
+
+#header button
+
