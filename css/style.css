@@ -69,7 +69,7 @@ nav a{
     font-family: 'Open Sans', sans-serif;
     padding: 5px 10px 5px 10px;
 }
-
+/* button section */
 .button{
     border: 1px solid;
     font-weight: 400;
@@ -83,21 +83,41 @@ nav a{
     border-color: rgb(0, 126, 222) ;
 }
 
+.large-button{
+    font-size: 1.1em;
+    margin-bottom: 4%;
+}
+
+/*  */
+
 
 .jumbothron{
     height: 700px;
     background-color: rgb(180, 208, 231);
+    margin-bottom: 5%;
 }
 
-.jumbothron .wrapper{
-   padding: 70px 0px 0px 120px;
+.wrapper{
+   padding: 70px 0px 0px 0px;
+   width: 80%;
+   margin: 0 auto;
 }
 
 .jumbothron h1{
     font-size: 80px;
     text-align: left;
+    padding-right: 40px;
 }
 
+.jumbothron p{
+    font-size: 1.3em;
+    padding-bottom: 5%;
+}
+
+.jumbothron i{
+    font-size: 2.7em;
+    margin-top: 7%;
+}
 
 .jumbothron .wrapper-text-img{
     padding: 40px 0px 0px 0px;
@@ -109,11 +129,50 @@ nav a{
 }
 
 .jumbothron .img-box{   
-    width: 55%;
+    width: 830px;
+    height: fit-content;
     margin-left: 150px;
 
 }
 
 .jumbothron img{
     width: 100%;
+}
+
+/* suggestion section */
+
+.suggestion{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.suggestion h2{
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.option input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+  
+    position: relative;
+    top: 3px;  
+}
+
+input:checked {
+    border: 5px solid rgb(0, 126, 222);
+  }
+
+.option label{
+    margin-right: 20px;
 }
