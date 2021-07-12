@@ -17,11 +17,11 @@ nav{
     display: inline-block;
 }
 
-ul{
+nav ul{
     list-style-type:none;
 }
 
-li{
+nav li{
     display: inline;
 }
 
@@ -90,6 +90,7 @@ nav a{
 
 .free-trial-bt{
    width: 100%;
+   margin-bottom: 25px;
 }
 
 /*  */
@@ -237,5 +238,19 @@ input:checked {
 .offer-description div{
     padding: 10px 0;
     font-weight: 500 ;
-
 }
+
+.offer-wrapper hr{
+    width: 20%;
+    height: 1px solid lightgray;
+    margin: 30px 0 40px 0;
+}
+
+.offer-wrapper ul{
+    list-style-type:none;
+}
+
+.offer-wrapper li::before {
+    content: "";
+}
+
