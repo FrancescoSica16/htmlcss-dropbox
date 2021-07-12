@@ -176,3 +176,53 @@ input:checked {
 .option label{
     margin-right: 20px;
 }
+
+/* offer block */
+.offer{
+    margin: 40px 0;
+}
+
+.offer-block-clm{
+    width: 28%;
+    height: 700px;
+    border: 1px solid black;
+    margin-right: 8%;   
+}
+
+.offer-block-clm:last-child{
+    margin-right: 0;
+}
+
+.offer-block-clm .user{
+    height: 6%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    line-height: 41.85px;
+    font-weight: 600;
+}
+
+.offer-block-clm .user.singol::after{
+    content:"Person";
+}
+.offer-block-clm .user.team::after{
+    content:"Team";
+}
+
+.offer-wrapper {
+    padding: 40px 0 0 30px;
+}
+
+.offer-wrapper h3{
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+
+.offer-wrapper .price{
+    font-weight: 600;
+    padding-bottom: 13px;
+}
+
+.offer-wrapper .for-month{
+    color: gray;
+    font-weight: 600;
+}
