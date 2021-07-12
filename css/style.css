@@ -88,6 +88,10 @@ nav a{
     margin-bottom: 4%;
 }
 
+.free-trial-bt{
+   width: 100%;
+}
+
 /*  */
 
 
@@ -184,7 +188,6 @@ input:checked {
 
 .offer-block-clm{
     width: 28%;
-    height: 700px;
     border: 1px solid black;
     margin-right: 8%;   
 }
@@ -202,14 +205,14 @@ input:checked {
 }
 
 .offer-block-clm .user.singol::after{
-    content:"Person";
+    content:"Singolo";
 }
 .offer-block-clm .user.team::after{
     content:"Team";
 }
 
 .offer-wrapper {
-    padding: 40px 0 0 30px;
+    padding: 40px 30px 0 30px;
 }
 
 .offer-wrapper h3{
@@ -225,4 +228,14 @@ input:checked {
 .offer-wrapper .for-month{
     color: gray;
     font-weight: 600;
+}
+
+.offer-description{
+    margin: 40px 0 ;
+}
+
+.offer-description div{
+    padding: 10px 0;
+    font-weight: 500 ;
+
 }
