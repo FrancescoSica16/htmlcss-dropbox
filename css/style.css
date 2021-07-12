@@ -134,7 +134,7 @@ nav a{
 }
 
 .jumbothron .img-box{   
-    width: 830px;
+    width: calc(70% - 150px);
     height: fit-content;
     margin-left: 150px;
 
@@ -189,6 +189,7 @@ input:checked {
 
 .offer-block-clm{
     width: 28%;
+    height: 1200px;
     border: 1px solid black;
     margin-right: 8%;   
 }
@@ -198,10 +199,10 @@ input:checked {
 }
 
 .offer-block-clm .user{
-    height: 6%;
+    height: 4%;
     border-bottom: 1px solid black;
     text-align: center;
-    line-height: 41.85px;
+    line-height: 47.9px;
     font-weight: 600;
 }
 
@@ -248,9 +249,17 @@ input:checked {
 
 .offer-wrapper ul{
     list-style-type:none;
-}
+    margin: 20px 0 0 0;
 
+
+}
+.offer-wrapper li{
+    padding: 20px 0 20px 0;
+    display: flex;
+}
 .offer-wrapper li::before {
-    content: "";
+    font-family: "Font Awesome 5 Free"; font-weight: 600; 
+    color: rgb(0, 126, 222) ;
+    content: "\f00c"
 }
 
