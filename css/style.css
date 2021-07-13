@@ -331,10 +331,53 @@ input:checked {
     line-height: 1.6;
 }
 
-
 #find-partner{
     width: 65%;
     margin: 0 auto;
     margin-top: 150px ;
     margin-bottom: 60px;
+}
+/* Dropbox business operation */
+
+#business-op{
+    width: 65%;
+    margin: 0 auto;
+}
+.wrapper-op{
+    margin: 60px 0 80px 0;
+}
+.block-op{
+    width: 30%;
+    margin: 0 5% 60.2333px 0;
+}
+.img-op{  
+    height: 40%;
+    padding-bottom: 10px;
+}
+
+.wrapper-op img{
+    width: 100%;
+}
+
+.text-op span{
+    text-decoration: underline;
+}
+
+#business-op h2{
+    font-size: 2.5em;
+}
+
+#business-op h3{
+    font-size: 1.7em;
+    padding-bottom: 30px;
+}
+
+#business-op p{
+    font-size: 1.2em;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.block-op:nth-child(3n){
+    margin-right: 0;
 }
