@@ -387,31 +387,38 @@ input:checked {
 
 .partner-body{
     margin-top: 60px;
-    height: 400px;
     border: 1px solid black;
 
 }
 .partner-block{
     width: 30%;
-    height: 400px;
-    border: 1px solid red;
+    height: 556.433px;
 }
 
 .partner-row{
-    background-color: seagreen;
-    border: 1px solid rebeccapurple ;
     height: 50%;
 }
 
-.partner-clm{
+.logo-container{
     width: 50%;
     height: 100%;
-    border: 1px solid blue;
+    position: relative; 
+}
+
+.partner-row img{
+    width: 60%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50% );
 }
 
 .block-40{
     width: 40%;
 }
+
+
 
 
 
@@ -428,4 +435,30 @@ input:checked {
     font-size: 1.2em;
     text-align: left;
     padding-right: 10px;
+}
+
+#designit{
+    background-color:rgb(162, 211, 155);
+    border: 10px solid rgb(208, 233, 205) ;
+}
+#arizona{
+    background-color:rgb(97, 8, 43);
+}
+#florida{
+    background-color:rgb(0, 147, 206);
+}
+#topps{
+    background-color:rgb(255, 28, 28);
+}
+#bicycle{
+    background-color:rgb(213, 0, 31);
+}
+#hearst{
+    background-color:rgb(180, 208, 231);
+}
+#lonely{
+    background-color:rgb(13, 36, 129);
+}
+#clear{
+    background-color:rgb(255, 216, 48);
 }
