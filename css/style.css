@@ -24,7 +24,7 @@ nav{
     display: inline-block;
 }
 
-nav ul{
+ul{
     list-style-type:none;
 }
 
@@ -82,6 +82,12 @@ nav a{
     height: 2px;
     margin: 40px 0 40px 0; 
     background-color: lightgray;
+}
+
+.bl-long{
+    width: 120px;
+    margin-left:5% 
+
 }
 
 /* button section */
@@ -500,15 +506,25 @@ input:checked {
     width: 80%;
     height: 60%;
     margin: 0 auto;
-    border: 1px solid white;  
 }
 
 .footer-column{
     width: 15%;
     height: 100%;
     margin-left:5% ;
-    border: 1px solid red;
 }
+
+.footer-column ul{
+    padding-top: 20px;
+}
+
+.footer-column li{
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-top: 8px;
+}
+
+
 
 #business-op h2{
     font-size: 2.5em;
