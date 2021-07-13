@@ -71,8 +71,9 @@ nav a{
 }
 
 .break-line{
-    width: 10%;
+    width: 60px ;
     height: 2px;
+    margin: 40px 0 40px 0; 
     background-color: lightgray;
 }
 
@@ -433,11 +434,9 @@ input:checked {
 
 .block-center img{
     width: 156.2px;
-    margin-bottom: 40px;
 }
 
-.block-center p{
-    margin-top: 40px;
+.block-center p{   
     font-size: 1.2em;
 }
 
