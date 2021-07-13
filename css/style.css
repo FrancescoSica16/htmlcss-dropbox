@@ -474,10 +474,17 @@ input:checked {
     margin: 1px 0;
     padding: 30px 0;
     border-top: 0.5px solid lightgray;
+    position: relative;
 }
 
 .question:last-child{
     border-bottom: 0.5px solid lightgray;
+}
+
+.question i{
+    position: absolute;
+    top: 30px;
+    right:40px;
 }
 
 #business-op h2{
@@ -497,7 +504,7 @@ input:checked {
 
 #faq{
     width: 65%;
-    margin: 150px auto;
+    margin: 150px auto 120px auto;
 }
 
 
