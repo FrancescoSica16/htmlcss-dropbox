@@ -105,6 +105,12 @@ nav a{
     background-color: white;
     font-size: 0.9em;
 }
+
+.partner-bt{
+    font-size: 1.2em;
+    border:none;
+    padding: 10px 60px 10px 60px;
+}
 /*  */
 
 
@@ -438,6 +444,24 @@ input:checked {
 .partner-footer{
     height: 380px;
     background-color: rgb(180, 208, 231);
+}
+
+.partner-wrapper{
+    padding: 120px 260px 0px 260px;
+    position: relative;
+}
+.partner-wrapper h3{
+    width: 50%;
+    font-size: 3em;
+    color: rgb(97, 8, 43) ;
+}
+
+.partner-wrapper button{
+    position: absolute;
+    top: 120px;
+    right: 300px;  
+   
+    
 }
 
 #business-op h2{
