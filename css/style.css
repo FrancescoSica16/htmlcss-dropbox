@@ -69,6 +69,13 @@ nav a{
     font-family: 'Open Sans', sans-serif;
     padding: 5px 10px 5px 10px;
 }
+
+.break-line{
+    width: 10%;
+    height: 2px;
+    background-color: lightgray;
+}
+
 /* button section */
 
 .button{
@@ -387,8 +394,6 @@ input:checked {
 
 .partner-body{
     margin-top: 60px;
-    border: 1px solid black;
-
 }
 .partner-block{
     width: 30%;
@@ -414,13 +419,26 @@ input:checked {
     transform: translate( -50% , -50% );
 }
 
-.block-40{
+.block-center{
     width: 40%;
+    background-color: rgb(245, 245, 245);
+    padding: 60px 60px 0 60px ;
 }
 
+.block-center img{
+    width: 156.2px;
+    margin-bottom: 40px;
+}
 
+.block-center p{
+    margin-top: 40px;
+    font-size: 1.2em;
+}
 
-
+.partner-footer{
+    height: 380px;
+    background-color: rgb(180, 208, 231);
+}
 
 #business-op h2{
     font-size: 2.5em;
