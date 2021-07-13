@@ -446,21 +446,21 @@ input:checked {
 }
 
 .partner-wrapper{
-    padding: 120px 260px 0px 260px;
+    width: 65%;
+    margin:0 auto;
+    padding: 100px 0;
     position: relative;
 }
 .partner-wrapper h3{
-    width: 50%;
+    width: 60%;
     font-size: 3em;
     color: rgb(97, 8, 43) ;
 }
 
 .partner-wrapper button{
     position: absolute;
-    top: 120px;
-    right: 300px;  
-   
-    
+    top: 100px;
+    right: 30px;  
 }
 
 /* FAQ section */
