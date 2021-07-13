@@ -337,7 +337,7 @@ input:checked {
     margin-top: 150px ;
     margin-bottom: 60px;
 }
-/* Dropbox business operation */
+/* Dropbox business operation - other element  in the bottom*/
 
 #business-op{
     width: 65%;
@@ -363,6 +363,58 @@ input:checked {
     text-decoration: underline;
 }
 
+.block-op:nth-child(3n){
+    margin-right: 0;
+}
+
+/* Partner section */
+
+.partner-head{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.partner-head h2{
+    width:57% ;
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+.partner-head a{
+    color:rgb(0, 126, 222) ;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.partner-body{
+    margin-top: 60px;
+    height: 400px;
+    border: 1px solid black;
+
+}
+.partner-block{
+    width: 30%;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.partner-row{
+    background-color: seagreen;
+    border: 1px solid rebeccapurple ;
+    height: 50%;
+}
+
+.partner-clm{
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.block-40{
+    width: 40%;
+}
+
+
+
 #business-op h2{
     font-size: 2.5em;
 }
@@ -376,8 +428,4 @@ input:checked {
     font-size: 1.2em;
     text-align: left;
     padding-right: 10px;
-}
-
-.block-op:nth-child(3n){
-    margin-right: 0;
 }
